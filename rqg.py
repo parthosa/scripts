@@ -1,3 +1,4 @@
+# create two folders papers and keys in your cwd
 import random
 import os
 capitals = {'Alabama': 'Montgomery', 'Alaska': 'Juneau', 'Arizona': 'Phoenix',
