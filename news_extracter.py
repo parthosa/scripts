@@ -1,10 +1,14 @@
 ''' This script will extract headlines from
 3 news websites and print them on the screen'''
+
+
 import requests,bs4
+
 # getting relevant data from google news
 a=requests.get('https://news.google.com/')
 soup1=bs4.BeautifulSoup(a.text,"html.parser")
 elems1=soup1.select('.titletext')
+
 # getting relevant data from hackernews
 b=requests.get('https://news.ycombinator.com/')
 soup2=bs4.BeautifulSoup(b.text,"html.parser")
