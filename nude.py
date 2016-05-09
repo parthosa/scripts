@@ -1,7 +1,7 @@
 # nude pics downloader
 # give the name of pornstar as argument, the script will create a folder
 # with pornstar's name in your current working directory
-# and will download 20 nude pics of her and store them in that directory
+# and will download 20 nude pics of her and store them in that folder
 
 import bs4,requests,os,sys,webbrowser
 
